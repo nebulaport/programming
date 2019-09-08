@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * @ClassName PrimeFactor
  * @Description P1075 质因数分解
+ * 已知正整数nn是两个不同的质数的乘积，试求出两者中较大的那个质数。
  * @Author NebulaPort
  * @Date 2019/9/5 10:57
  */

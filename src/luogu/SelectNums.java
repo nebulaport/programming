@@ -46,7 +46,7 @@ public class SelectNums {
         return true;
     }
     /**
-     * //cleftk为剩余的k，sumNow为前面累加的和，start和end为全组合剩下数字的选取范围；
+     * cleftk为剩余的k，sumNow为前面累加的和，start和end为全组合剩下数字的选取范围；
      * 调用递归生成全组合，在过程中逐渐把K个数相加，当选取的数个数为0时，直接返回前面的累加和是否为质数即可
      * */
     private static int selectNums(int leftk,int sumNow,int start,int end){
