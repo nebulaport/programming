@@ -10,7 +10,7 @@ package luogu;
  */
 public class Sanlianji {
     public static void main(String[] args) {
-        for(int i=100;i<=999;i++){
+        for(int i=100;i<=333;i++){
             if(i/100+i/10%10+i%10+(i*2)/100+(i*2)/10%10+(i*2)%10+(i*3)/100+(i*3)/10%10+(i*3)%10==45
                     &&(i/100)*(i/10%10)*(i%10)*(i*2/100)*(i*2/10%10)*(i*2%10)*(i*3/100)*(i*3/10%10)*(i*3%10)==362880) {
                 System.out.println(i+" "+i*2+" "+i*3);
