@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @ClassName AMinusB
  * @Description  P1102 A-B 数对
  * 第三个点WA，把ans换成long，对了，然后第四个点超时了。。。
+ *
  * 给出一串数以及一个数字 C，要求计算出所有 A-B=C 的数对的个数。
  * （不同位置的数字一样的数对算不同的数对）
  * @Author NebulaPort
