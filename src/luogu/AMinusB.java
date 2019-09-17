@@ -8,7 +8,6 @@ import java.util.Scanner;
 /**
  * @ClassName AMinusB
  * @Description  P1102 A-B 数对
- * 第三个点WA，把ans换成long，对了，然后第四个点超时了。。。
  *
  * 给出一串数以及一个数字 C，要求计算出所有 A-B=C 的数对的个数。
  * （不同位置的数字一样的数对算不同的数对）
@@ -22,11 +21,11 @@ public class AMinusB {
         int c=in.nextInt();
         in.nextLine();
         int[]nums=new int[n];
-        Map map=new HashMap();
+        Map<Integer,Integer> map=new HashMap();
         for (int i = 0; i <n ; i++) {
             nums[i]=in.nextInt();
             if (map.containsKey(nums[i])){
-                map.put(nums[i],Integer.parseInt(map.get(nums[i]).toString())+1);
+                map.put(nums[i],map.get(nums[i])+1);
             }else{
                 map.put(nums[i],1);
             }
@@ -37,9 +36,9 @@ public class AMinusB {
         for (int i = 0; i < n; i++) {
             if (map.containsKey(nums[i]-c)){
                 if (nums[i]==(nums[i]-c)){
-                    ans+=Integer.parseInt(map.get(nums[i]-c).toString())-1;
+                    ans+=map.get(nums[i]-c)-1;
                 }else {
-                    ans+=Integer.parseInt(map.get(nums[i]-c).toString());
+                    ans+=map.get(nums[i]-c);
                 }
             }
         }
