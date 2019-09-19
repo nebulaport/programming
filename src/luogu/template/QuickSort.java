@@ -108,19 +108,14 @@ public class QuickSort {
             while (i<j&&a[i] <= pivot) {
                 i++;
             }
-
             if (i < j) {
                 swap(a, i, j);
             }
-
         }
 
             swap(a, j, left);
             qSort(a, left, j - 1);
             qSort(a, j + 1, right);
-
-
-
 
     }
     /**

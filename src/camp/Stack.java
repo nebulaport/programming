@@ -36,10 +36,7 @@ import java.util.Scanner;
  */
 public class Stack {
     private static int top;
-
     private static ArrayList<String> stack = new ArrayList<>();
-
-
 
     public static void main(String[] args) {
         int n;
