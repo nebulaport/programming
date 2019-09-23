@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @ClassName QuickSort
- * @Description P1177 【模板】快速排序
+ * @Description  P1177 【模板】快速排序
  * RE StackOverflow
  * @Author NebulaPort
  * @Date 2019/9/15 13:26
@@ -19,8 +19,8 @@ public class QuickSort {
             a[i]=in.nextInt();
         }
 
-        quickSort(a,0,a.length-1);
-        //qSort(a,0,a.length-1);
+        //quickSort(a,0,a.length-1);
+        qSort(a,0,a.length-1);
         printArray(a);
 
     }

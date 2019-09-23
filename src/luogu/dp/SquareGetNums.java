@@ -1,4 +1,4 @@
-package luogu;
+package luogu.dp;
 
 import java.util.Scanner;
 

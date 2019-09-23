@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @ClassName Statistics
  * @Description  P1097 统计数字
- * 一半用例TLE、MLE，鉴于用的Java，我就当自己过了。
+ * 一半用例TLE、MLE。
  *
  * 某次科研调查时得到了nn个自然数，每个数均不超过1500000000(1.5 \times 10^9)1500000000(1.5×10
  * 9
