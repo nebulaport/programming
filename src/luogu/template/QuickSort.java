@@ -91,9 +91,6 @@ public class QuickSort {
 
     private static void   qSort(int[]a,int left,int right){
         if (right - left < 1) {return;}
-        if (right-left==1){
-            if (a[right]<a[left]){swap(a,left,right);return;}
-        }
 
         int mid = (right+left)/2;
 

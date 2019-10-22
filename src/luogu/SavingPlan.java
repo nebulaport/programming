@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @ClassName SavingPlan
- * @Description 津津的储蓄计划
+ * @Description p1089 津津的储蓄计划
  * @Author NebulaPort
  * @Date 2019/9/12 9:50
  */

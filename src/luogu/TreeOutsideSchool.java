@@ -3,7 +3,7 @@ package luogu;
 import java.util.Scanner;
 
 /**
- * @ClassName TreeOutsideSchoole
+ * @ClassName TreeOutsideSchool
  * @Description P1047 校门外的树
  * 某校大门外长度为L的马路上有一排树，每两棵相邻的树之间的间隔都是1米。
  * 我们可以把马路看成一个数轴，马路的一端在数轴0的位置，另一端在L的位置；
@@ -15,7 +15,7 @@ import java.util.Scanner;
  * @Author NebulaPort
  * @Date 2019/9/5 9:55
  */
-public class TreeOutsideSchoole {
+public class TreeOutsideSchool {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int L=in.nextInt();

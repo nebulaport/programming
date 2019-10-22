@@ -5,9 +5,7 @@ import java.util.Scanner;
 /**
  * @ClassName InversionPair
  * @Description  P1908 逆序对
- * 求逆序对数
- * 这题的数据加强过，一半的用例TLE、MLE了，用c++应该能过
- * （我就当自己过了吧）
+ * 求逆序对数，一半的用例TLE、MLE了
  * @Author NebulaPort
  * @Date 2019/9/13 13:22
  */
