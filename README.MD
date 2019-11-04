@@ -3,6 +3,8 @@
 
 最早在 [spoj](https://www.spoj.com/) 刷题，后来转移到了 [洛谷](https://www.luogu.org/) 。
 
+求职所迫，也开始刷面试题了。
+
 题目分类混乱
 
 本人很菜，努力中...
